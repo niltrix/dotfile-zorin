@@ -28,7 +28,7 @@ switch-keys='Hangul,Shift+space,ISO_Level3_Shift'
 word-commit=false
 
 [org/gnome/control-center]
-last-panel='network'
+last-panel='region'
 
 [org/gnome/deja-dup]
 backend='google'
@@ -54,9 +54,9 @@ translate=true
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/bj/.local/share/backgrounds/2022-01-03-11-11-49-house_by_the_lake_drawing-wallpaper-3840x1600.jpg'
-primary-color='#000000000000'
-secondary-color='#000000000000'
+picture-uri='file:///usr/share/backgrounds/zorin-mountain/zorin-mountain-timed.xml'
+primary-color='#000000'
+secondary-color='#000000'
 
 [org/gnome/desktop/input-sources]
 mru-sources=[('xkb', 'kr'), ('xkb', 'us')]
@@ -111,9 +111,9 @@ disable-microphone=false
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/bj/.local/share/backgrounds/2022-01-03-11-11-49-house_by_the_lake_drawing-wallpaper-3840x1600.jpg'
-primary-color='#000000000000'
-secondary-color='#000000000000'
+picture-uri='file:///usr/share/backgrounds/zorin-mountain/zorin-mountain-timed.xml'
+primary-color='#000000'
+secondary-color='#000000'
 
 [org/gnome/desktop/wm/preferences]
 button-layout='appmenu:minimize,maximize,close'
@@ -238,3 +238,6 @@ sort-order='ascending'
 type-format='category'
 window-position=(937, 290)
 window-size=(1262, 822)
+
+[system/locale]
+region='en_US.UTF-8'
