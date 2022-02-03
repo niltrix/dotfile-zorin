@@ -13,6 +13,9 @@ function install {
         fi
 }
 
+install git
+install htop
+install neofetch
 install open-vm-tools-desktop
 install ranger
 install stow
