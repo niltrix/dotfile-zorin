@@ -161,7 +161,7 @@ search-view='list-view'
 
 [org/gnome/nautilus/window-state]
 initial-size=(1772, 1393)
-maximized=false
+maximized=true
 
 [org/gnome/settings-daemon/plugins/media-keys]
 screensaver=@as []
@@ -175,7 +175,7 @@ overrides={'Gtk/ShellShowsAppMenu': <0>}
 disable-user-extensions=false
 disabled-extensions=['zorin-dash@zorinos.com', 'zorin-hide-activities-move-clock@zorinos.com']
 enabled-extensions=['drive-menu@gnome-shell-extensions.gcampax.github.com', 'remove-dropdown-arrows@mpdeimos.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'x11gestures@joseexposito.github.io', 'zorin-appindicator@zorinos.com', 'zorin-desktop-icons@zorinos.com', 'zorin-printers@zorinos.com', 'zorin-taskbar@zorinos.com', 'zorin-menu@zorinos.com']
-favorite-apps=['google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'code_code.desktop', 'org.gnome.Software.desktop']
 
 [org/gnome/shell/extensions/user-theme]
 name='ZorinBlue-Dark'
@@ -216,7 +216,7 @@ window-preview-size=200
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1643855906
+check-timestamp=int64 1643964592
 first-run=false
 online-updates-timestamp=int64 1643855982
 
