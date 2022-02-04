@@ -31,4 +31,8 @@ wget -c https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
 sha256 fedf9e340039557f7b5e8a8a86affa9d299f5e9820144bd7b92ae9f7ee08ac60 Anaconda3-2021.11-Linux-x86_64.sh
 
 bash Anaconda3-2021.11-Linux-x86_64.sh
+~/anaconda3/condabin/conda init fish
+
 rm Anaconda3-2021.11-Linux-x86_64.sh
+
+
