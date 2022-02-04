@@ -175,7 +175,7 @@ overrides={'Gtk/ShellShowsAppMenu': <0>}
 disable-user-extensions=false
 disabled-extensions=['zorin-dash@zorinos.com', 'zorin-hide-activities-move-clock@zorinos.com']
 enabled-extensions=['drive-menu@gnome-shell-extensions.gcampax.github.com', 'remove-dropdown-arrows@mpdeimos.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'x11gestures@joseexposito.github.io', 'zorin-appindicator@zorinos.com', 'zorin-desktop-icons@zorinos.com', 'zorin-printers@zorinos.com', 'zorin-taskbar@zorinos.com', 'zorin-menu@zorinos.com']
-favorite-apps=['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'code_code.desktop', 'org.gnome.Software.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'code_code.desktop', 'org.gnome.Software.desktop', 'appimagekit-joplin.desktop']
 
 [org/gnome/shell/extensions/user-theme]
 name='ZorinBlue-Dark'
