@@ -8,3 +8,4 @@ end
 eval /home/bj/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 
+fish_add_path /usr/local/go/bin
