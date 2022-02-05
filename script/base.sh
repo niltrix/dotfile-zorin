@@ -19,3 +19,4 @@ install neofetch
 install open-vm-tools-desktop
 install ranger
 install stow
+install direnv
