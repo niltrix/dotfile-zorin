@@ -9,7 +9,17 @@ end
 eval /home/bj/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 
-fish_add_path /usr/local/go/bin
+# golang config
+if test -e /usr/local/go/bin
+  fish_add_path /usr/local/go/bin
+end
+
+# rust config
+if test -e $HOME/.cargo/bin
+  fish_add_path $HOME/.cargo/bin
+end
+
+# direnv config
 if not functions -q __direnv_export_eval; and command -sq direnv
   direnv hook fish | source
   direnv export fish | source
