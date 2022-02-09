@@ -1,9 +1,11 @@
 if status is-interactive
   # Commands to run in interactive sessions can go here
-  set -g theme_color_scheme nord
-  set -g direnv_fish_mode eval_on_arrow
 end
 
+# omf theme config
+set -g theme_color_scheme nord
+set -g theme_newline_cursor yes
+set -g theme_newline_prompt '$ ' 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 eval /home/bj/anaconda3/bin/conda "shell.fish" "hook" $argv | source
@@ -21,6 +23,7 @@ end
 
 # direnv config
 if not functions -q __direnv_export_eval; and command -sq direnv
+  set -g direnv_fish_mode eval_on_arrow
   direnv hook fish | source
   direnv export fish | source
 end
