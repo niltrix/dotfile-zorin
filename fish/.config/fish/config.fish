@@ -13,9 +13,21 @@ set __fish_git_prompt_showdirtystate 'yes'
 set __fish_git_prompt_showstashstate ''
 set __fish_git_prompt_showupstream 'none'
 
+# exa config
+if command -v exa > /dev/null
+	abbr -a l 'exa'
+	abbr -a ls 'exa'
+	abbr -a ll 'exa -l'
+	abbr -a lll 'exa -la'
+else
+	abbr -a l 'ls'
+	abbr -a ll 'ls -l'
+	abbr -a lll 'ls -la'
+end
+
 # autojump config
-if test -f /home/bj/.autojump/share/autojump/autojump.fish;
-  . /home/bj/.autojump/share/autojump/autojump.fish;
+if test -f /usr/share/autojump/autojump.fish;
+  . /usr/share/autojump/autojump.fish;
 end
 
 # >>> conda initialize >>>
