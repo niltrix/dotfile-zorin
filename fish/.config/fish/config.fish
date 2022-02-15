@@ -6,6 +6,18 @@ end
 set -g theme_color_scheme nord
 set -g theme_newline_cursor yes
 set -g theme_newline_prompt '$ ' 
+
+# Fish git prompt
+set __fish_git_prompt_showuntrackedfiles 'yes'
+set __fish_git_prompt_showdirtystate 'yes'
+set __fish_git_prompt_showstashstate ''
+set __fish_git_prompt_showupstream 'none'
+
+# autojump config
+if test -f /home/bj/.autojump/share/autojump/autojump.fish;
+  . /home/bj/.autojump/share/autojump/autojump.fish;
+end
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 eval /home/bj/anaconda3/bin/conda "shell.fish" "hook" $argv | source
