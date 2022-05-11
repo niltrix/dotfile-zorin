@@ -18,6 +18,7 @@ install htop
 install neofetch
 install open-vm-tools-desktop
 install ranger
+install highlight
 install stow
 install direnv
 install autojump
